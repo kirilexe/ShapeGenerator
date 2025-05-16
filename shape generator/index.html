@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>shape generator</title>
+  <style>
+    #container {
+      position: relative;
+      width: 100%;
+      height: 90vh;
+      background: #eee;
+    }
+    .rectangle {
+      position: absolute;
+      background: red;
+    }
+  </style>
+</head>
+<body>
+
+  <button id="rectangle_generator">start rectangles</button>
+  <button id="triangle_generator">start triangles</button>
+  <button id="circle_generator">start circles</button>
+  <button id="delete_button">delete everything</button>
+
+  <div id="container"></div>
+
+  <script src="rectangle_script.js"></script>
+  <script src="triangle_script.js"></script>
+  <script src="circle_script.js"></script>
+  <script src="deleteshapes.js"></script>
+</body>
+</html>
