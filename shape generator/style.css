@@ -1,0 +1,70 @@
+/* Overall page styling */
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(135deg, #121212, #1f1f1f);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  color: #eee;
+  padding: 20px 0;
+  user-select: none;
+}
+
+/* Container styling */
+#container {
+  position: relative;
+  width: 90vw;
+  max-width: 960px;
+  height: 80vh;
+  background: #222;
+  border-radius: 12px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.8);
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+/* Button styling */
+button {
+  background-color: #444;
+  color: #ddd;
+  border: none;
+  padding: 8px 16px;
+  margin: 5px 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.25s ease, background-color 0.25s ease, box-shadow 0.25s ease;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.45);
+  user-select: none;
+  min-width: 120px;
+}
+
+button:hover {
+  background-color: #666;
+  transform: scale(1.07);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.65);
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px #888;
+}
+
+/* Shapes styling */
+.rectangle, .circle {
+  position: absolute;
+}
+
+.rectangle {
+  background-color: red;
+}
+
+.circle {
+  border-radius: 50%;
+  background-color: #2196F3; /* example circle color */
+}
+
